@@ -4,7 +4,7 @@ import View from 'rax-view';
 import Text from 'rax-text';
 import Logo from '@/components/Logo';
 import { hello, getOpenId } from '@/cloud/function';
-import styles from './index.less';
+import styles from './index.module.less';
 
 export default function Home() {
   const [currentMessage, setMessage] = useState('');

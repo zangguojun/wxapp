@@ -37,7 +37,5 @@
     "prettier": "^2.7.1",
     "rax-app": "^3.8.22",
     "stylelint": "^13.13.1"
-  },
-  "private": true,
-  "originTemplate": "@rax-materials/scaffolds-app-midway-miniapp"
+  }
 }

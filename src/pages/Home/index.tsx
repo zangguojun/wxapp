@@ -2,9 +2,9 @@ import { createElement, useState } from 'rax';
 import useAsyncEffect from 'rax-use-async-effect';
 import View from 'rax-view';
 import Text from 'rax-text';
-import styles from './index.module.css';
 import Logo from '@/components/Logo';
 import { hello, getOpenId } from '@/cloud/function';
+import styles from './index.less';
 
 export default function Home() {
   const [currentMessage, setMessage] = useState('');

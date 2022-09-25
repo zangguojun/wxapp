@@ -15,28 +15,28 @@
     "lint:fix": "npm run eslint:fix && npm run stylelint:fix"
   },
   "dependencies": {
-    "@midwayjs/faas": "^2.11.5",
+    "@midwayjs/faas": "^2.14.8",
     "@midwayjs/hooks": "^2.3.0",
     "@midwayjs/hooks-miniprogram-client": "^2.3.0",
-    "rax": "^1.1.0",
-    "rax-document": "^0.1.0",
-    "rax-image": "^2.0.0",
-    "rax-link": "^1.0.1",
-    "rax-text": "^2.0.0",
+    "rax": "^1.2.2",
+    "rax-document": "^0.1.6",
+    "rax-image": "^2.4.3",
+    "rax-link": "^1.5.2",
+    "rax-text": "^2.2.0",
     "rax-use-async-effect": "^1.0.0",
-    "rax-view": "^2.0.0",
-    "wx-server-sdk": "^2.5.3"
+    "rax-view": "^2.3.0",
+    "wx-server-sdk": "^2.6.3"
   },
   "devDependencies": {
-    "@iceworks/spec": "^1.0.0",
-    "@types/rax": "^1.0.0",
-    "@types/wechat-miniprogram": "^3.4.0",
+    "@iceworks/spec": "^1.6.0",
     "@midwayjs/build-plugin-hooks": "^2.3.0",
-    "build-plugin-rax-miniapp-faas": "^1.0.0",
-    "eslint": "^8.0.0",
-    "prettier": "^2.1.2",
-    "rax-app": "^3.8.7",
-    "stylelint": "^13.7.2"
+    "@types/rax": "^1.0.10",
+    "@types/wechat-miniprogram": "^3.4.1",
+    "build-plugin-rax-miniapp-faas": "^1.0.2",
+    "eslint": "^8.24.0",
+    "prettier": "^2.7.1",
+    "rax-app": "^3.8.22",
+    "stylelint": "^13.13.1"
   },
   "private": true,
   "originTemplate": "@rax-materials/scaffolds-app-midway-miniapp"

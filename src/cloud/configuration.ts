@@ -6,7 +6,5 @@ cloud.init({
 });
 
 export default createConfiguration({
-  imports: [
-    hooks(),
-  ],
+  imports: [hooks()],
 });

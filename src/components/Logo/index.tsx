@@ -1,7 +1,6 @@
 import { createElement } from 'rax';
 import Image from 'rax-image';
-
-import styles from './index.module.css';
+import styles from './index.less';
 
 interface LogoProps {
   uri: string;

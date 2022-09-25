@@ -6,7 +6,7 @@ export const hello = async (frontend: string, backend: string) => {
 
 export const getOpenId = async () => {
   const wechatContext = cloud.getWXContext();
-  console.log('🚀~ 9 getOpenId wechatContext', wechatContext);
+
   return {
     openId: wechatContext.OPENID,
   };
